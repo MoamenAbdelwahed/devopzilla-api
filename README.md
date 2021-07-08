@@ -20,6 +20,7 @@ POSTGRES_DB = <POSTGRES_DB>
 ## Run it
 
 ```sh
+pipenv shell
 uvicorn app.main:app
 ```
 
