@@ -17,7 +17,3 @@ def start_application():
     return app
 
 app = start_application()
-
-@app.get("/")
-def home():
-    return {"Hello": "FastAPI"}
