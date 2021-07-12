@@ -27,5 +27,5 @@ uvicorn app.main:app
 ## Test it
 
 ```sh
-$ pytest
+pytest
 ```
